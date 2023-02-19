@@ -26,7 +26,7 @@
     "photo": "/photo.jpg",
     "bio": "Simlify things :>",
     "contacts": {
-      "rss": "",
+      "rss": "#",
       "email": "mtosity@gmail.com",
       "github": "mtosity",
       "facebook": "mtosity",
@@ -35,13 +35,13 @@
       "linkedin": "mtosity",
       "instagram": "mtosity",
       "mastodon": "#",
-      "line": "",
-      "weibo": "",
-      "gitlab": "",
-      "medium": "",
-      "youtube": "",
-      "codepen": "",
-      "soundcloud": ""
+      "line": "#",
+      "weibo": "#",
+      "gitlab": "#",
+      "medium": "#",
+      "youtube": "#",
+      "codepen": "#",
+      "soundcloud": "#"
     }
   }
 }
