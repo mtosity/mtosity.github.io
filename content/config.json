@@ -26,22 +26,22 @@
     "photo": "/photo.jpg",
     "bio": "Simlify things :>",
     "contacts": {
-      "rss": "#",
+      "rss": "",
       "email": "mtosity@gmail.com",
       "github": "mtosity",
       "facebook": "mtosity",
-      "telegram": "#",
-      "twitter": "#",
+      "telegram": "",
+      "twitter": "",
       "linkedin": "mtosity",
       "instagram": "mtosity",
-      "mastodon": "#",
-      "line": "#",
-      "weibo": "#",
-      "gitlab": "#",
-      "medium": "#",
-      "youtube": "#",
-      "codepen": "#",
-      "soundcloud": "#"
+      "mastodon": "",
+      "line": "",
+      "weibo": "",
+      "gitlab": "",
+      "medium": "",
+      "youtube": "",
+      "codepen": "",
+      "soundcloud": ""
     }
   }
 }
