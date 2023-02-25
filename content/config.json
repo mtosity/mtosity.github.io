@@ -11,6 +11,18 @@
     {
       "label": "Articles",
       "path": "/"
+    },
+    {
+      "label": "Categories",
+      "path": "/categories"
+    },
+    {
+      "label": "Tags",
+      "path": "/tags"
+    },
+    {
+      "label": "About",
+      "path": "/about"
     }
   ],
   "author": {

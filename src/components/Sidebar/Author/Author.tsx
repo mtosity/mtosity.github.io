@@ -2,8 +2,10 @@ import React from "react";
 
 import { Link } from "gatsby";
 
-import { Image } from "@/components/Image";
+// import { Image } from "@/components/Image";
 import { ThemeSwitcher } from "@/components/ThemeSwitcher";
+
+import { DogReading } from "../DogReading/DogReading";
 
 import * as styles from "./Author.module.scss";
 
@@ -18,9 +20,10 @@ type Props = {
 
 const Author = ({ author, isIndex }: Props) => (
   <div className={styles.author}>
-    <Link to="/">
+    {/* <Link to="/">
       <Image alt={author.name} path={author.photo} className={styles.photo} />
-    </Link>
+    </Link> */}
+    <DogReading size={200} />
 
     <div className={styles.titleContainer}>
       {isIndex ? (
