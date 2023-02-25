@@ -71,6 +71,9 @@
           ["w*(w*.*css)"]
         ]
       }
+    ],
+    "prettier/prettier": ["error",{
+      "endOfLine": "auto"}
     ]
   },
   "settings": {

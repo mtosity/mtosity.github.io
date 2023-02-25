@@ -49,6 +49,7 @@
   "dependencies": {
     "@alxshelepenok/diesel": "^1.0.703",
     "@alxshelepenok/diesel-extensions": "^1.0.368",
+    "@lottiefiles/react-lottie-player": "^3.5.2",
     "@sentry/gatsby": "^7.38.0",
     "@sentry/tracing": "^7.38.0",
     "abab": "^2.0.6",
