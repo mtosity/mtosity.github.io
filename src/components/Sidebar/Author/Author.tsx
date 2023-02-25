@@ -1,11 +1,15 @@
-import React from "react";
+import React, { Suspense } from "react";
 
 import { Link } from "gatsby";
 
 // import { Image } from "@/components/Image";
 import { ThemeSwitcher } from "@/components/ThemeSwitcher";
 
-import { DogReading } from "../DogReading/DogReading";
+const DogReadingLazy = React.lazy(() =>
+  import("../DogReading/DogReading").then(({ DogReading }) => ({
+    default: DogReading,
+  })),
+);
 
 import * as styles from "./Author.module.scss";
 
@@ -23,7 +27,9 @@ const Author = ({ author, isIndex }: Props) => (
     {/* <Link to="/">
       <Image alt={author.name} path={author.photo} className={styles.photo} />
     </Link> */}
-    <DogReading size={200} />
+    <Suspense fallback={<div>Reading...</div>}>
+      <DogReadingLazy size={200} />
+    </Suspense>
 
     <div className={styles.titleContainer}>
       {isIndex ? (
