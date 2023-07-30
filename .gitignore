@@ -41,3 +41,4 @@ npm-shrinkwrap.json
 yarn.lock
 
 .env
+.vercel
