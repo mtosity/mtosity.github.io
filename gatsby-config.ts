@@ -1,5 +1,4 @@
 import path from "path";
-import * as Sentry from "@sentry/gatsby";
 
 import config from "./content/config.json";
 import * as types from "./internal/gatsby/types";
