@@ -33,14 +33,15 @@ interface PageToAlgoliaRecordInput {
   };
 }
 
-function pageToAlgoliaRecord({
-  node: { id, frontmatter, fields, ...rest },
-}: PageToAlgoliaRecordInput) {
+function pageToAlgoliaRecord(
+  { node: { id, frontmatter, fields, ...rest } }: PageToAlgoliaRecordInput,
+  index: number,
+) {
   return {
-    objectID: id,
     ...fields,
     ...rest,
     ...frontmatter,
+    objectID: String(index),
   };
 }
 
