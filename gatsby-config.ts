@@ -195,17 +195,10 @@ export default {
       resolve: "@sentry/gatsby",
       options: {
         dsn: process.env.SENTRY_DSN,
-        integrations: [new Sentry.Replay()],
 
-        // Set tracesSampleRate to 1.0 to capture 100%
-        // of transactions for performance monitoring.
-        // We recommend adjusting this value in production
-        tracesSampleRate: 1.0,
-
-        // Capture Replay for 10% of all sessions,
-        // plus for 100% of sessions with an error
-        replaysSessionSampleRate: 0.1,
-        replaysOnErrorSampleRate: 1.0,
+        // A rate of 1 means all traces will be sent, so it's good for testing.
+        // In production, you'll likely want to either choose a lower rate or use `tracesSampler` instead (see below).
+        tracesSampleRate: 1,
       },
     },
     "gatsby-plugin-image",
