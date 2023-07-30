@@ -1,7 +1,10 @@
 import path from "path";
+import * as Sentry from "@sentry/gatsby";
 
 import config from "./content/config.json";
 import * as types from "./internal/gatsby/types";
+
+require("dotenv").config();
 
 export default {
   pathPrefix: config.pathPrefix,
@@ -192,12 +195,30 @@ export default {
       resolve: "@sentry/gatsby",
       options: {
         dsn: process.env.SENTRY_DSN,
-        tracesSampleRate: 1,
+        integrations: [new Sentry.Replay()],
+
+        // Set tracesSampleRate to 1.0 to capture 100%
+        // of transactions for performance monitoring.
+        // We recommend adjusting this value in production
+        tracesSampleRate: 1.0,
+
+        // Capture Replay for 10% of all sessions,
+        // plus for 100% of sessions with an error
+        replaysSessionSampleRate: 0.1,
+        replaysOnErrorSampleRate: 1.0,
       },
     },
     "gatsby-plugin-image",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-optimize-svgs",
     "gatsby-plugin-sass",
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        queries: require("./src/utils/algolia-queries"),
+      },
+    },
   ],
 };
