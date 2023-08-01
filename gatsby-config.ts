@@ -5,6 +5,8 @@ import * as types from "./internal/gatsby/types";
 
 require("dotenv").config();
 
+const siteUrl = process.env.URL || `https://mtosity.com`;
+
 export default {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
@@ -210,6 +212,54 @@ export default {
         appId: process.env.GATSBY_ALGOLIA_APP_ID,
         apiKey: process.env.ALGOLIA_ADMIN_KEY,
         queries: require("./src/utils/algolia-queries"),
+      },
+    },
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        query: `
+        {
+          allSitePage {
+            nodes {
+              path
+            }
+          }
+          allWpContentNode(filter: {nodeType: {in: ["Post", "Page"]}}) {
+            nodes {
+              ... on WpPost {
+                uri
+                modifiedGmt
+              }
+              ... on WpPage {
+                uri
+                modifiedGmt
+              }
+            }
+          }
+        }
+      `,
+        resolveSiteUrl: () => siteUrl,
+        resolvePages: ({
+          allSitePage: { nodes: allPages },
+          allWpContentNode: { nodes: allWpNodes },
+        }: any) => {
+          const wpNodeMap = allWpNodes.reduce((acc: any, node: any) => {
+            const { uri } = node;
+            acc[uri] = node;
+
+            return acc;
+          }, {});
+
+          return allPages.map((page: any) => {
+            return { ...page, ...wpNodeMap[page.path] };
+          });
+        },
+        serialize: ({ path, modifiedGmt }: any) => {
+          return {
+            url: path,
+            lastmod: modifiedGmt,
+          };
+        },
       },
     },
   ],
