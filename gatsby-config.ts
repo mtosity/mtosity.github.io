@@ -224,34 +224,12 @@ export default {
               path
             }
           }
-          allWpContentNode(filter: {nodeType: {in: ["Post", "Page"]}}) {
-            nodes {
-              ... on WpPost {
-                uri
-                modifiedGmt
-              }
-              ... on WpPage {
-                uri
-                modifiedGmt
-              }
-            }
-          }
         }
       `,
         resolveSiteUrl: () => siteUrl,
-        resolvePages: ({
-          allSitePage: { nodes: allPages },
-          allWpContentNode: { nodes: allWpNodes },
-        }: any) => {
-          const wpNodeMap = allWpNodes.reduce((acc: any, node: any) => {
-            const { uri } = node;
-            acc[uri] = node;
-
-            return acc;
-          }, {});
-
+        resolvePages: ({ allSitePage: { nodes: allPages } }: any) => {
           return allPages.map((page: any) => {
-            return { ...page, ...wpNodeMap[page.path] };
+            return { ...page };
           });
         },
         serialize: ({ path, modifiedGmt }: any) => {
