@@ -17,6 +17,9 @@ const templates = Object.freeze({
   tagsTemplate: path.resolve("./src/templates/TagsTemplate/TagsTemplate.tsx"),
   pageTemplate: path.resolve("./src/templates/PageTemplate/PageTemplate.tsx"),
   postTemplate: path.resolve("./src/templates/PostTemplate/PostTemplate.tsx"),
+  searchTemplate: path.resolve(
+    "./src/templates/SearchTemplate/SearchTemplate.tsx",
+  ),
 });
 
 export default templates;

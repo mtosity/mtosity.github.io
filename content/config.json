@@ -4,13 +4,17 @@
   "subtitle": "Just want to simplify things and share it to the internet",
   "copyright": "© All rights reserved.",
   "googleAnalyticsId": "UA-179750986-1",
-  "disqusShortname": "",
+  "disqusShortname": "mtosity",
   "postsLimit": 4,
   "pathPrefix": "/",
   "menu": [
     {
       "label": "Articles",
       "path": "/"
+    },
+    {
+      "label": "Search",
+      "path": "/search"
     },
     {
       "label": "Categories",

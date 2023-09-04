@@ -1,0 +1,25 @@
+.searchInput {
+    &  > form {
+        & > input {
+            width: 400px;
+            height: 30px;
+            max-width: 100%;
+        }
+        & > button {
+            height: 30px;
+            width: 30px;
+            margin-left: 4px;
+            background-color: var(--color-secondary);
+
+            & svg {
+            }
+        }
+    }
+}
+
+.hits {
+    & ol {
+        list-style-type: circle;
+        padding-inline-start: 8px;
+    }
+}

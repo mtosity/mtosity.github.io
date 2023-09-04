@@ -3,6 +3,10 @@ import path from "path";
 import config from "./content/config.json";
 import * as types from "./internal/gatsby/types";
 
+require("dotenv").config();
+
+const siteUrl = process.env.URL || `https://mtosity.com`;
+
 export default {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
@@ -192,6 +196,9 @@ export default {
       resolve: "@sentry/gatsby",
       options: {
         dsn: process.env.SENTRY_DSN,
+
+        // A rate of 1 means all traces will be sent, so it's good for testing.
+        // In production, you'll likely want to either choose a lower rate or use `tracesSampler` instead (see below).
         tracesSampleRate: 1,
       },
     },
@@ -199,5 +206,39 @@ export default {
     "gatsby-plugin-catch-links",
     "gatsby-plugin-optimize-svgs",
     "gatsby-plugin-sass",
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        queries: require("./src/utils/algolia-queries"),
+      },
+    },
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        query: `
+        {
+          allSitePage {
+            nodes {
+              path
+            }
+          }
+        }
+      `,
+        resolveSiteUrl: () => siteUrl,
+        resolvePages: ({ allSitePage: { nodes: allPages } }: any) => {
+          return allPages.map((page: any) => {
+            return { ...page };
+          });
+        },
+        serialize: ({ path, modifiedGmt }: any) => {
+          return {
+            url: path,
+            lastmod: modifiedGmt,
+          };
+        },
+      },
+    },
   ],
 };
