@@ -17,6 +17,8 @@ That's what I told myself when I was in college, an hustle guy who determined to
 
 Now with 1 year living in the USA, I can say that I'm proud of myself: secured a well-paying job, attained financial independence, and established harmonious relationships with the local community.
 
+![pic](/media/pic.jpg)
+
 # English
 
 Fortunately, I've been learning English since my childhood. What I needed was to achieve a proven score, enhance my communication skills, and grasp the accent.
