@@ -47,7 +47,7 @@
     ]
   },
   "dependencies": {
-    "@alxshelepenok/diesel": "^1.0.1045",
+    "@alxshelepenok/diesel": "^1.0.1047",
     "@alxshelepenok/diesel-extensions": "^1.0.959",
     "@lottiefiles/react-lottie-player": "^3.5.3",
     "@sentry/gatsby": "^7.60.1",
