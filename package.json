@@ -86,7 +86,7 @@
     "react-instantsearch-hooks-web": "^6.47.3"
   },
   "devDependencies": {
-    "@alxshelepenok/eslint-config": "^1.0.322",
+    "@alxshelepenok/eslint-config": "^1.0.323",
     "@commitlint/cli": "^17.6.7",
     "@commitlint/config-conventional": "^17.6.7",
     "@jest/globals": "^29.6.4",
