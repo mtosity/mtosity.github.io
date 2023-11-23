@@ -5,6 +5,8 @@ import * as types from "./internal/gatsby/types";
 
 require("dotenv").config();
 
+const siteUrl = process.env.URL || `https://mtosity.com`;
+
 export default {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
@@ -207,6 +209,32 @@ export default {
       options: {
         // (optional) Prints metrics in the console when true
         debug: false,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        query: `
+        {
+          allSitePage {
+            nodes {
+              path
+            }
+          }
+        }
+      `,
+        resolveSiteUrl: () => siteUrl,
+        resolvePages: ({ allSitePage: { nodes: allPages } }: any) => {
+          return allPages.map((page: any) => {
+            return { ...page };
+          });
+        },
+        serialize: ({ path, modifiedGmt }: any) => {
+          return {
+            url: path,
+            lastmod: modifiedGmt,
+          };
+        },
       },
     },
   ],
