@@ -205,13 +205,6 @@ export default {
       },
     },
     {
-      resolve: "@vercel/gatsby-plugin-vercel-analytics",
-      options: {
-        // (optional) Prints metrics in the console when true
-        debug: false,
-      },
-    },
-    {
       resolve: "gatsby-plugin-sitemap",
       options: {
         query: `
