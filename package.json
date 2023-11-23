@@ -50,9 +50,9 @@
     "@alxshelepenok/diesel": "^1.0.956",
     "@alxshelepenok/diesel-extensions": "^1.0.820",
     "@lottiefiles/react-lottie-player": "^3.5.3",
-    "@sentry/gatsby": "^7.60.1",
-    "@sentry/tracing": "^7.60.1",
+    "@vercel/analytics": "^1.1.1",
     "abab": "^2.0.6",
+    "add": "^2.0.6",
     "algoliasearch": "^4.19.1",
     "classnames": "^2.3.2",
     "disqus-react": "^1.1.5",
@@ -83,7 +83,8 @@
     "prismjs": "^1.29.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-instantsearch-hooks-web": "^6.47.3"
+    "react-instantsearch-hooks-web": "^6.47.3",
+    "yarn": "^1.22.21"
   },
   "devDependencies": {
     "@alxshelepenok/eslint-config": "^1.0.288",

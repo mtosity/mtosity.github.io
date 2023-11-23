@@ -13,12 +13,14 @@ const Page: React.FC<Props> = ({ title, children }: Props) => {
   const pageRef = useRef<Nullable<HTMLDivElement>>(null);
 
   return (
-    <div ref={pageRef} className={styles.page}>
-      <div className={styles.inner}>
-        {title && <h1 className={styles.title}>{title}</h1>}
-        <div className={styles.body}>{children}</div>
+    <>
+      <div ref={pageRef} className={styles.page}>
+        <div className={styles.inner}>
+          {title && <h1 className={styles.title}>{title}</h1>}
+          <div className={styles.body}>{children}</div>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

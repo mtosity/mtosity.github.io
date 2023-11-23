@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 import { useTheme } from "@/hooks";
 
@@ -15,7 +16,12 @@ const Layout: React.FC<Props> = ({ children }: Props) => {
     document.documentElement.className = mode;
   }, [mode]);
 
-  return <div className={styles.layout}>{children}</div>;
+  return (
+    <>
+      <div className={styles.layout}>{children}</div>
+      <Analytics />
+    </>
+  );
 };
 
 export default Layout;

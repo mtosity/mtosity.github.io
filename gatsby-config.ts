@@ -190,16 +190,6 @@ export default {
         },
       },
     },
-    {
-      resolve: "@sentry/gatsby",
-      options: {
-        dsn: process.env.SENTRY_DSN,
-
-        // A rate of 1 means all traces will be sent, so it's good for testing.
-        // In production, you'll likely want to either choose a lower rate or use `tracesSampler` instead (see below).
-        tracesSampleRate: 1,
-      },
-    },
     "gatsby-plugin-image",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-optimize-svgs",
@@ -210,6 +200,13 @@ export default {
         appId: process.env.GATSBY_ALGOLIA_APP_ID,
         apiKey: process.env.ALGOLIA_ADMIN_KEY,
         queries: require("./src/utils/algolia-queries"),
+      },
+    },
+    {
+      resolve: "@vercel/gatsby-plugin-vercel-analytics",
+      options: {
+        // (optional) Prints metrics in the console when true
+        debug: false,
       },
     },
   ],
