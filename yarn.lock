@@ -152,10 +152,10 @@
   resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel/-/diesel-1.0.1178.tgz#40264e694ca2ad46c7d7070aabb6d2c43db93569"
   integrity sha512-87wN3gQ1bO0HVDZtzDgLWA1suaoRGebeOR0qPlTinnTdEyzJbnWDN6tcBOHb4LFiPHV2mXifdAojYlHQx2alsQ==
 
-"@alxshelepenok/eslint-config@^1.0.390":
-  version "1.0.390"
-  resolved "https://registry.yarnpkg.com/@alxshelepenok/eslint-config/-/eslint-config-1.0.390.tgz#1b9eb2e57dd0f53a3f87e615c7fa4640529f6927"
-  integrity sha512-9wvfQfwHpkPkY/lcPyK8cYLy09GIKiOz+M3ax0jDhgsSoNafi3LbJVRnyaYEyG/pbYkdll/BEPDWGjW3sbbk0w==
+"@alxshelepenok/eslint-config@^1.0.391":
+  version "1.0.391"
+  resolved "https://registry.yarnpkg.com/@alxshelepenok/eslint-config/-/eslint-config-1.0.391.tgz#6917166e3b5548a444d928747d2c4d9671aedc9f"
+  integrity sha512-1BFXtw1Nl5E9P50HZqUq7alzBbC5M3sILkMRC1OMRPVdFphs2eORGVyk0JnlI1f5iN7lZYbNBb5bG7fq3If11A==
 
 "@alxshelepenok/react-hooks@^1.0.654":
   version "1.0.655"
