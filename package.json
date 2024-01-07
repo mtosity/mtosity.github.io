@@ -87,7 +87,7 @@
     "yarn": "^1.22.21"
   },
   "devDependencies": {
-    "@alxshelepenok/eslint-config": "^1.0.393",
+    "@alxshelepenok/eslint-config": "^1.0.394",
     "@commitlint/cli": "^17.8.1",
     "@commitlint/config-conventional": "^17.8.1",
     "@jest/globals": "^29.7.0",
