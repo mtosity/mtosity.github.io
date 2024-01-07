@@ -134,18 +134,13 @@
   resolved "https://registry.yarnpkg.com/@algolia/ui-components-shared/-/ui-components-shared-1.2.2.tgz#ec49246e2de7d0461cdeadf2e7742d2f2c7c0bd9"
   integrity sha512-FYwEG5sbr8p4V8mqP0iUaKgmWfcrMXRXwp7e6iBuB65P/7QyL8pT4I6/iGb85Q5mNH+UtYYSmLZhKjEblllKEQ==
 
-"@alxshelepenok/diesel-extensions@^1.0.1106":
-  version "1.0.1106"
-  resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel-extensions/-/diesel-extensions-1.0.1106.tgz#4d123cca722d94f84c5966809f8e7884e0e6f93c"
-  integrity sha512-wxspXcM8FwZ7nomNZTgDP89zrH1NXZJAgjcBXHFGobH0zVtledPD5P8HQyS0/rZA9GX/njI1fnPurlRdQTKakA==
+"@alxshelepenok/diesel-extensions@^1.0.1110":
+  version "1.0.1110"
+  resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel-extensions/-/diesel-extensions-1.0.1110.tgz#33a6cec2935825e0e2e87383fbb562ae5850e997"
+  integrity sha512-gGg4IKvlTFzBqnNUSjT36BHKsC/sgT/+JFzR6S7/3Oex7ne89Uv6FpeykFS3mQC5Akhqt6rWJ4wy+tC7zRSBrg==
   dependencies:
-    "@alxshelepenok/diesel" "^1.0.1181"
-    "@alxshelepenok/react-hooks" "^1.0.660"
-
-"@alxshelepenok/diesel@^1.0.1181":
-  version "1.0.1181"
-  resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel/-/diesel-1.0.1181.tgz#767a0d713bb61a704637da4ecf5677a7d66adeca"
-  integrity sha512-AYf/bKYTkuAo9b/9b64TSzURUyd7TElrkCJKOYW92CNzNmb2v8BkymYo0M4CO0KnrVaHJ6vwzOR8El6nX9FNjw==
+    "@alxshelepenok/diesel" "^1.0.1184"
+    "@alxshelepenok/react-hooks" "^1.0.664"
 
 "@alxshelepenok/diesel@^1.0.1184":
   version "1.0.1184"
@@ -157,10 +152,10 @@
   resolved "https://registry.yarnpkg.com/@alxshelepenok/eslint-config/-/eslint-config-1.0.393.tgz#895a6d76a2516fa32e0fdfcf9fe93b0fcd69066d"
   integrity sha512-dvC8dV58gwx6LOkivIlBu9ZKRbl02zM1+oz4Y+qqbrBlu04o/cAc5OJDtjxSLu8ckbAIDG/l1gIeNo3QS/IsGQ==
 
-"@alxshelepenok/react-hooks@^1.0.660":
-  version "1.0.661"
-  resolved "https://registry.yarnpkg.com/@alxshelepenok/react-hooks/-/react-hooks-1.0.661.tgz#ea1299f7c7a79fe179dee1c00fdf29db84f2b0b6"
-  integrity sha512-HQjMHVatTkjB2wxH3XqC3E1XII/n4qx4Qvr+avYTKb1wNrYubq0DHk7FT0um9dYcezZSNfSoDs1+lnGdh82gCg==
+"@alxshelepenok/react-hooks@^1.0.664":
+  version "1.0.664"
+  resolved "https://registry.yarnpkg.com/@alxshelepenok/react-hooks/-/react-hooks-1.0.664.tgz#e72aef4195163b253c67d3f0068e7dbd2cb78a27"
+  integrity sha512-NZ8g6kx3nEswvxlUS7KwkOxxOHATCrQUpQqek4v1tghkIklsIZbrrkEGbAWtC/krqI8ha2tOR72xk8ZuuV3aRg==
 
 "@ampproject/remapping@^2.2.0":
   version "2.2.1"
