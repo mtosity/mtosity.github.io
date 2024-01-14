@@ -238,13 +238,13 @@
   resolved "https://registry.yarnpkg.com/@algolia/ui-components-shared/-/ui-components-shared-1.2.2.tgz#ec49246e2de7d0461cdeadf2e7742d2f2c7c0bd9"
   integrity sha512-FYwEG5sbr8p4V8mqP0iUaKgmWfcrMXRXwp7e6iBuB65P/7QyL8pT4I6/iGb85Q5mNH+UtYYSmLZhKjEblllKEQ==
 
-"@alxshelepenok/diesel-extensions@^1.0.1117":
-  version "1.0.1117"
-  resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel-extensions/-/diesel-extensions-1.0.1117.tgz#81e1add8eb6f00375772514e94e48d0478bbdc1f"
-  integrity sha512-xUANPeybAxHZi6NZuavze7O4b8CHe6TqzJMxOh9z/5XIA3ylC6SrV3zkuDC90JI660GkvodtnG5nWEEL0PeG3A==
+"@alxshelepenok/diesel-extensions@^1.0.1118":
+  version "1.0.1118"
+  resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel-extensions/-/diesel-extensions-1.0.1118.tgz#c0c6ca10b74f25dcfb458120abbac7a1f55f222c"
+  integrity sha512-962mcVzg46wdSwjyGIybx2Gt3wK+IOOY4iiVPI7agM6mKpWaXcjG5epg+U5BH3y4YtkOf0N8tN5lvvcDc3DPtA==
   dependencies:
     "@alxshelepenok/diesel" "^1.0.1184"
-    "@alxshelepenok/react-hooks" "^1.0.664"
+    "@alxshelepenok/react-hooks" "^1.0.671"
 
 "@alxshelepenok/diesel@^1.0.1184":
   version "1.0.1184"
@@ -261,10 +261,10 @@
   resolved "https://registry.yarnpkg.com/@alxshelepenok/eslint-config/-/eslint-config-1.0.400.tgz#64f6d8dd7656c1c29b341183d385599a29f9e95c"
   integrity sha512-2EMwkLq28Q28m0bIVj+GH7pAlD3qbAuC+6kJW6gIJhF92vYlTS1eHbeRcdLP5J6agvjygcjQo4NjURMHF0UCYQ==
 
-"@alxshelepenok/react-hooks@^1.0.664":
-  version "1.0.664"
-  resolved "https://registry.yarnpkg.com/@alxshelepenok/react-hooks/-/react-hooks-1.0.664.tgz#e72aef4195163b253c67d3f0068e7dbd2cb78a27"
-  integrity sha512-NZ8g6kx3nEswvxlUS7KwkOxxOHATCrQUpQqek4v1tghkIklsIZbrrkEGbAWtC/krqI8ha2tOR72xk8ZuuV3aRg==
+"@alxshelepenok/react-hooks@^1.0.671":
+  version "1.0.672"
+  resolved "https://registry.yarnpkg.com/@alxshelepenok/react-hooks/-/react-hooks-1.0.672.tgz#2a004b8b5206fe747badc78709969d827bba45d6"
+  integrity sha512-IPMPrwcS8ZJeOuNxLvs2VmHKrsfnXOKwVu+Su/VppZDXlZ8En0CEwsZ8KAeI+4XwwC9O1KHQ3FdUQRLt6UXJDg==
 
 "@ampproject/remapping@^2.2.0":
   version "2.2.1"
