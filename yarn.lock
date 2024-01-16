@@ -238,13 +238,13 @@
   resolved "https://registry.yarnpkg.com/@algolia/ui-components-shared/-/ui-components-shared-1.2.2.tgz#ec49246e2de7d0461cdeadf2e7742d2f2c7c0bd9"
   integrity sha512-FYwEG5sbr8p4V8mqP0iUaKgmWfcrMXRXwp7e6iBuB65P/7QyL8pT4I6/iGb85Q5mNH+UtYYSmLZhKjEblllKEQ==
 
-"@alxshelepenok/diesel-extensions@^1.0.1120":
-  version "1.0.1120"
-  resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel-extensions/-/diesel-extensions-1.0.1120.tgz#e0dfa21314f726b2128fcaa2305466ee062f1c96"
-  integrity sha512-N9lk3nx4pZ41OBVdcuQyMecj+x/1CFBpsDdOi1WLbCe2/oEPypmCnqzIetsPvSu5Zu6Qts8NZlAZmVg3PVNrWw==
+"@alxshelepenok/diesel-extensions@^1.0.1121":
+  version "1.0.1121"
+  resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel-extensions/-/diesel-extensions-1.0.1121.tgz#7b000d67c1f5e3f7698072aac9d6adb96d387001"
+  integrity sha512-NNKHU4Hou+inK1BMBt0b5wcK1/OAJyPeOPO42qufyRpw78EUuwE27HCt8Yp4ga2vXWdr5wkuMt9EWkvHcUfqXg==
   dependencies:
     "@alxshelepenok/diesel" "^1.0.1192"
-    "@alxshelepenok/react-hooks" "^1.0.671"
+    "@alxshelepenok/react-hooks" "^1.0.672"
 
 "@alxshelepenok/diesel@^1.0.1192":
   version "1.0.1192"
@@ -256,7 +256,7 @@
   resolved "https://registry.yarnpkg.com/@alxshelepenok/eslint-config/-/eslint-config-1.0.401.tgz#3dc6862a280e7711dedcebef16b5b5c36e986053"
   integrity sha512-FXW89BozSElyPeAxWShxGYt6AANsN+7mt8wAkS/Ln8qYNzLI9UcyxZ3BTFEBB7bM0tDBiTY+vs2sKgVOI93jAw==
 
-"@alxshelepenok/react-hooks@^1.0.671":
+"@alxshelepenok/react-hooks@^1.0.672":
   version "1.0.672"
   resolved "https://registry.yarnpkg.com/@alxshelepenok/react-hooks/-/react-hooks-1.0.672.tgz#2a004b8b5206fe747badc78709969d827bba45d6"
   integrity sha512-IPMPrwcS8ZJeOuNxLvs2VmHKrsfnXOKwVu+Su/VppZDXlZ8En0CEwsZ8KAeI+4XwwC9O1KHQ3FdUQRLt6UXJDg==
