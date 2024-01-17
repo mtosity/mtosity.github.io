@@ -251,6 +251,11 @@
   resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel/-/diesel-1.0.1192.tgz#fec3055128a504d0ac68cb280a351ee7748eeff6"
   integrity sha512-fb9TyFtyiiMe4DKhZILM289YzWf4CBQ5oqMyNvA4i8FigLCnwOjO7qjGOrSxk8f4uEPrZwjiJhp6qHuglN3T7g==
 
+"@alxshelepenok/diesel@^1.0.1194":
+  version "1.0.1194"
+  resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel/-/diesel-1.0.1194.tgz#ec2c95f28ec7e582be812b45af1f3f533a9a59b5"
+  integrity sha512-6SwopsogA9VnYXeASQEkvEd1WcbdQejhnBkrGYK4guLOB5gRBjEFpr4zNPQhMrqBSWr2WO5lePYe7e9exUM/WA==
+
 "@alxshelepenok/eslint-config@^1.0.402":
   version "1.0.402"
   resolved "https://registry.yarnpkg.com/@alxshelepenok/eslint-config/-/eslint-config-1.0.402.tgz#8464b1e487c5268e842ba527aae7f1ccee5320ba"
