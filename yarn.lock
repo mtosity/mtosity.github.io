@@ -238,10 +238,10 @@
   resolved "https://registry.yarnpkg.com/@algolia/ui-components-shared/-/ui-components-shared-1.2.2.tgz#ec49246e2de7d0461cdeadf2e7742d2f2c7c0bd9"
   integrity sha512-FYwEG5sbr8p4V8mqP0iUaKgmWfcrMXRXwp7e6iBuB65P/7QyL8pT4I6/iGb85Q5mNH+UtYYSmLZhKjEblllKEQ==
 
-"@alxshelepenok/diesel-extensions@^1.0.1126":
-  version "1.0.1126"
-  resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel-extensions/-/diesel-extensions-1.0.1126.tgz#77f976cb129e6e9702b4e5321e1b896954a322bb"
-  integrity sha512-oX8u0dxTUVXiA8iNI1L/P/RhBCVGbYCLCD/FidUzwSOmAEJfw396VCsPGfQT7AEuwzIlVgwMOIttVAYzBY9Q+w==
+"@alxshelepenok/diesel-extensions@^1.0.1127":
+  version "1.0.1127"
+  resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel-extensions/-/diesel-extensions-1.0.1127.tgz#a734f740537c57426a30dc6055087c89ab94e009"
+  integrity sha512-P69UvLw0+JG3XY2WA6pgjID0q1cHPp1MK9ioxRxBW+y2/o+6aimE3n7tScZ7ym/eeK71ZCqw5fnGPpAt2jOE7Q==
   dependencies:
     "@alxshelepenok/diesel" "^1.0.1192"
     "@alxshelepenok/react-hooks" "^1.0.672"
