@@ -238,13 +238,13 @@
   resolved "https://registry.yarnpkg.com/@algolia/ui-components-shared/-/ui-components-shared-1.2.2.tgz#ec49246e2de7d0461cdeadf2e7742d2f2c7c0bd9"
   integrity sha512-FYwEG5sbr8p4V8mqP0iUaKgmWfcrMXRXwp7e6iBuB65P/7QyL8pT4I6/iGb85Q5mNH+UtYYSmLZhKjEblllKEQ==
 
-"@alxshelepenok/diesel-extensions@^1.0.1127":
-  version "1.0.1127"
-  resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel-extensions/-/diesel-extensions-1.0.1127.tgz#a734f740537c57426a30dc6055087c89ab94e009"
-  integrity sha512-P69UvLw0+JG3XY2WA6pgjID0q1cHPp1MK9ioxRxBW+y2/o+6aimE3n7tScZ7ym/eeK71ZCqw5fnGPpAt2jOE7Q==
+"@alxshelepenok/diesel-extensions@^1.0.1129":
+  version "1.0.1129"
+  resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel-extensions/-/diesel-extensions-1.0.1129.tgz#27a89232576d4cb6e1c091b08289eb67ecb9dce0"
+  integrity sha512-dMbIz1m7CxjWbOQboxR6VJsVvSEvq8AIzMpRrgGC0j9Nz59LOW2WPHCdc8W1uIe2h8spl4VAL6qMLIVcQ6rLoA==
   dependencies:
     "@alxshelepenok/diesel" "^1.0.1192"
-    "@alxshelepenok/react-hooks" "^1.0.672"
+    "@alxshelepenok/react-hooks" "^1.0.678"
 
 "@alxshelepenok/diesel@^1.0.1192":
   version "1.0.1192"
@@ -261,10 +261,10 @@
   resolved "https://registry.yarnpkg.com/@alxshelepenok/eslint-config/-/eslint-config-1.0.403.tgz#d1fffff816b0519585a877abe456e396c71eb039"
   integrity sha512-8zn0dpUVDli7KksdLGF7+7VQ3weQ6YYI5aS8+7LyLHigLImuJTeX7Ep/cXEpUJVj49REKEUK0klQKe/M6ecLgQ==
 
-"@alxshelepenok/react-hooks@^1.0.672":
-  version "1.0.672"
-  resolved "https://registry.yarnpkg.com/@alxshelepenok/react-hooks/-/react-hooks-1.0.672.tgz#2a004b8b5206fe747badc78709969d827bba45d6"
-  integrity sha512-IPMPrwcS8ZJeOuNxLvs2VmHKrsfnXOKwVu+Su/VppZDXlZ8En0CEwsZ8KAeI+4XwwC9O1KHQ3FdUQRLt6UXJDg==
+"@alxshelepenok/react-hooks@^1.0.678":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@alxshelepenok/react-hooks/-/react-hooks-1.1.3.tgz#87ca4f928a973eff86fa4bb04a6d686205e2ce74"
+  integrity sha512-y1jCjCTRb8ljLCmsDmkJz0jdmbKvLT8sD1tCVqPFl6c8VHWGOZ8dnFj61oWlxvAWezonLnv+5xhMg/7yy9jy7Q==
 
 "@ampproject/remapping@^2.2.0":
   version "2.2.1"
