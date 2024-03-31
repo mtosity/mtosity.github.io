@@ -142,7 +142,7 @@
     "sass": "^1.69.7",
     "semantic-release": "^21.1.2",
     "source-map-support": "^0.5.21",
-    "stylelint": "^16.2.0",
+    "stylelint": "^16.2.1",
     "stylelint-config-recommended-scss": "^14.0.0",
     "stylelint-order": "^6.0.4",
     "stylelint-scss": "^6.1.0",
