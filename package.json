@@ -84,7 +84,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-instantsearch-hooks-web": "^6.47.3",
-    "yarn": "^1.22.21"
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@alxshelepenok/eslint-config": "^1.0.436",
