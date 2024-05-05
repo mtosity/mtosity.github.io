@@ -238,20 +238,15 @@
   resolved "https://registry.yarnpkg.com/@algolia/ui-components-shared/-/ui-components-shared-1.2.2.tgz#ec49246e2de7d0461cdeadf2e7742d2f2c7c0bd9"
   integrity sha512-FYwEG5sbr8p4V8mqP0iUaKgmWfcrMXRXwp7e6iBuB65P/7QyL8pT4I6/iGb85Q5mNH+UtYYSmLZhKjEblllKEQ==
 
-"@alxshelepenok/diesel-extensions@^1.0.1191":
-  version "1.0.1191"
-  resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel-extensions/-/diesel-extensions-1.0.1191.tgz#2db5661230dbd7554e36ed647158086b6a02184a"
-  integrity sha512-aUa7D3RERm+mfJX3VlMlwwd2qbd8F8jynUJLVjNDr5e1NnykA9phH0pLrJ7sGjcfzE5NqCto212bZ3kziLzIhA==
+"@alxshelepenok/diesel-extensions@^1.0.1211":
+  version "1.0.1211"
+  resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel-extensions/-/diesel-extensions-1.0.1211.tgz#a188b6ed8292ed705e460c805d15e8476a090aa3"
+  integrity sha512-9FAcqZVcjtt7vE/dz0qTVqsI0FAH9wffWxlt6RkiAxa2n/0Eke64w4c7V3TOeqOh/nue2GhpkBE7oB52V4PxVQ==
   dependencies:
-    "@alxshelepenok/diesel" "^1.0.1258"
-    "@alxshelepenok/react-hooks" "^1.1.46"
+    "@alxshelepenok/diesel" "^1.0.1282"
+    "@alxshelepenok/react-hooks" "^1.1.60"
 
-"@alxshelepenok/diesel@^1.0.1258":
-  version "1.0.1263"
-  resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel/-/diesel-1.0.1263.tgz#4117d50a259c21f435b19234ef8ffad260db069c"
-  integrity sha512-TTLBwh8UN3coljJBPHTNKgq75puZ49tYX4jt427PkJFm1p2hHNnzMeQ3l8gbUjjd1AET+nKDR21NrtSC6+HnzA==
-
-"@alxshelepenok/diesel@^1.0.1284":
+"@alxshelepenok/diesel@^1.0.1282", "@alxshelepenok/diesel@^1.0.1284":
   version "1.0.1284"
   resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel/-/diesel-1.0.1284.tgz#3553b488ea5cfabdd265d080121135d3e18ddbd5"
   integrity sha512-atCDPpkDPDL6pedIImT9vG/jmMra8m7NyTLh/lIAipgupK8MuZ2qu7zJ9yr71ZPMAf0pzBxdZ2zokgNuxKIfIg==
@@ -261,10 +256,10 @@
   resolved "https://registry.yarnpkg.com/@alxshelepenok/eslint-config/-/eslint-config-1.0.448.tgz#c964d8717194c9182b84e49ac3f9cd016078c17b"
   integrity sha512-/HViZL36pZ3qfJ+mqCdShlr8eODxAE7dEc4lMN03HI3bh/JKV6JPsSdDKzodWKNZ+5GlsTegkNSXinfJVWzSyw==
 
-"@alxshelepenok/react-hooks@^1.1.46":
-  version "1.1.48"
-  resolved "https://registry.yarnpkg.com/@alxshelepenok/react-hooks/-/react-hooks-1.1.48.tgz#0931532700927b95cf5648843840d61611ff1df6"
-  integrity sha512-OExpuOp/nFJxZs0gok8TVv9EQem2+Ev9YnB+7x11r7Yldv7cOrcO0tmfAmmR1r6NGiUGHXxROUkapxy9P2G5wA==
+"@alxshelepenok/react-hooks@^1.1.60":
+  version "1.1.60"
+  resolved "https://registry.yarnpkg.com/@alxshelepenok/react-hooks/-/react-hooks-1.1.60.tgz#1de9d8423dcc6bb8ee1785d38d76d4baf43092f0"
+  integrity sha512-jtRX4ey1tMXiZ7JuF/c2HNbhHJ9EnzwguHQkSh982stiAiwEoEzKpDOfiqgV7Wt98B+CItKSj+yxEEdP+c3e9w==
 
 "@ampproject/remapping@^2.2.0":
   version "2.2.1"
