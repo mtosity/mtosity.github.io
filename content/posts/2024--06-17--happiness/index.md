@@ -64,6 +64,8 @@ By understanding the quirks of our brain and actively choosing paths that lead t
 
 ## Balancing Success and Happiness: A Personal Perspective
 
+![Happiness](./media/career.webp)
+
 In our pursuit of success, it's easy to get caught up in the chase for higher salaries and the allure of luxury items. However, focusing solely on these external markers can lead to a paradox where the more we achieve, the less fulfilled we feel. But does this mean we have to choose between professional success and personal happiness? I believe not. There are ways to strive for both without sacrificing our well-being.
 
 ### Integrating Personal Fulfillment with Career Goals
@@ -76,7 +78,7 @@ In our pursuit of success, it's easy to get caught up in the chase for higher sa
 
 ## Finding Happiness as You Grow Up: Insights from "Inside Out 2"
 
-![Happiness](./media/inside-out-2-anxiety.avif)
+![Happiness](./media/joy.jpg)
 
 The sentiment expressed in "Inside Out 2" that "Maybe this is what happens when you grow up. You feel less joy," touches on a common experience many face as they age. The simplicity of childhood joy often gives way to the complexities of adult responsibilities, which can sometimes dilute our sense of happiness. However, the film also offers a poignant piece of advice: "Learn to gather small happiness, and be grateful with people around you." This guidance is not only wise but also rooted in psychological research. Here are some ways to find happiness as you grow up, inspired by these insights:
 
