@@ -110,6 +110,8 @@ Incorporating these practices into daily life can help counteract the notion tha
 
 ## Resources / References
 
+[Don't believe my advices? Click here](https://docs.google.com/document/d/1dJk4EkzN5v-AaMu4wc8b4Z_9Sk0tGcMZDoqu0uuCPDI/edit?usp=sharing)
+
 1. [The Science of Well-Being (Coursera)](https://www.coursera.org/learn/the-science-of-well-being)
 2. [The How of Happiness: A New Approach to Getting the Life You Want](https://www.amazon.com/dp/B0010O927W/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
 3. [Stumbling on Happiness](https://www.amazon.com/Stumbling-Happiness-Daniel-Gilbert/dp/1400077427)
