@@ -76,6 +76,8 @@ In our pursuit of success, it's easy to get caught up in the chase for higher sa
 
 ## Finding Happiness as You Grow Up: Insights from "Inside Out 2"
 
+![Happiness](./media/inside-out-2-anxiety.avif)
+
 The sentiment expressed in "Inside Out 2" that "Maybe this is what happens when you grow up. You feel less joy," touches on a common experience many face as they age. The simplicity of childhood joy often gives way to the complexities of adult responsibilities, which can sometimes dilute our sense of happiness. However, the film also offers a poignant piece of advice: "Learn to gather small happiness, and be grateful with people around you." This guidance is not only wise but also rooted in psychological research. Here are some ways to find happiness as you grow up, inspired by these insights:
 
 ### Embrace the Joy in Small Moments
