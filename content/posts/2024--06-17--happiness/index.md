@@ -105,3 +105,12 @@ While it's important to strive for goals and improvements, equally important is 
 As we grow, our definition of happiness might change, and that’s perfectly normal. Regularly taking time to reflect on what truly makes us happy—and adjusting our lives accordingly—can help ensure that we are living in alignment with our values and passions, not just societal expectations or outdated personal goals.
 
 Incorporating these practices into daily life can help counteract the notion that joy diminishes with age. Instead, these strategies suggest that with intentional action, growing up can be an enriching journey filled with many forms of happiness.
+
+## Resources / References
+
+1. [The Science of Well-Being (Coursera)](https://www.coursera.org/learn/the-science-of-well-being)
+2. [The How of Happiness: A New Approach to Getting the Life You Want](https://www.amazon.com/dp/B0010O927W/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
+3. [Stumbling on Happiness](https://www.amazon.com/Stumbling-Happiness-Daniel-Gilbert/dp/1400077427)
+4. [Authentic Happiness](https://www.amazon.com/Authentic-Happiness-Psychology-Potential-Fulfillment/dp/0743222989)
+5. [Flow: The Psychology of Optimal Experience](https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202)
+6. [Mindset: The New Psychology of Success](https://www.amazon.com/Mindset-Psychology-Carol-S-Dweck/dp/0345472322)
