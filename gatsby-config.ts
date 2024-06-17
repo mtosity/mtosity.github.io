@@ -5,7 +5,7 @@ import * as types from "./internal/gatsby/types";
 
 require("dotenv").config();
 
-const siteUrl = process.env.URL || `https://mtosity.com`;
+const siteUrl = process.env.URL || "https://mtosity.com";
 
 export default {
   pathPrefix: config.pathPrefix,
@@ -197,10 +197,10 @@ export default {
     "gatsby-plugin-optimize-svgs",
     "gatsby-plugin-sass",
     {
-      resolve: `gatsby-plugin-algolia`,
+      resolve: "gatsby-plugin-algolia",
       options: {
         appId: process.env.GATSBY_ALGOLIA_APP_ID,
-        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        apiKey: process.env.GATSBY_ALGOLIA_ADMIN_KEY,
         queries: require("./src/utils/algolia-queries"),
       },
     },
@@ -217,17 +217,12 @@ export default {
         }
       `,
         resolveSiteUrl: () => siteUrl,
-        resolvePages: ({ allSitePage: { nodes: allPages } }: any) => {
-          return allPages.map((page: any) => {
-            return { ...page };
-          });
-        },
-        serialize: ({ path, modifiedGmt }: any) => {
-          return {
-            url: path,
-            lastmod: modifiedGmt,
-          };
-        },
+        resolvePages: ({ allSitePage: { nodes: allPages } }: any) =>
+          allPages.map((page: any) => ({ ...page })),
+        serialize: ({ path, modifiedGmt }: any) => ({
+          url: path,
+          lastmod: modifiedGmt,
+        }),
       },
     },
   ],
