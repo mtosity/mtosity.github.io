@@ -199,7 +199,7 @@ export default {
     {
       resolve: "gatsby-plugin-algolia",
       options: {
-        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        appId: process.env.GATSBY_ALGOLIA_APP_ID ?? "NOT FOUND",
         apiKey: process.env.GATSBY_ALGOLIA_ADMIN_KEY ?? "NOT FOUND",
         queries: require("./src/utils/algolia-queries"),
       },
