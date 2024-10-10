@@ -246,10 +246,15 @@
     "@alxshelepenok/diesel" "^1.0.1310"
     "@alxshelepenok/react-hooks" "^1.1.75"
 
-"@alxshelepenok/diesel@^1.0.1310", "@alxshelepenok/diesel@^1.0.1340":
+"@alxshelepenok/diesel@^1.0.1310":
   version "1.0.1340"
   resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel/-/diesel-1.0.1340.tgz#0f18136e5b1adc0c2d30b212043b96eb551a35c5"
   integrity sha512-1N2C/W8kne/eAia5cOZhm5sYCefyMzddYAr4GxSsb4cZuFG6yyoNE3sel8R8gW8cIkA0HAamKdBzWMHQ6y6iBw==
+
+"@alxshelepenok/diesel@^1.0.1360":
+  version "1.0.1360"
+  resolved "https://registry.yarnpkg.com/@alxshelepenok/diesel/-/diesel-1.0.1360.tgz#9e3ec77c6b7bbfed216f8c0d630cd9980cd51577"
+  integrity sha512-ytZ7jQCeh6TJz8w+7/fCLoiQYXjgVMZMO21Orp/DmnJFyL40hwxP/21DfYXpZ5nB4O/ESmQ42lh/nGTwAB2IJA==
 
 "@alxshelepenok/eslint-config@^1.0.511":
   version "1.0.511"
