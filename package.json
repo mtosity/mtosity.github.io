@@ -142,10 +142,10 @@
     "sass": "^1.69.7",
     "semantic-release": "^21.1.2",
     "source-map-support": "^0.5.21",
-    "stylelint": "^16.7.0",
+    "stylelint": "^16.9.0",
     "stylelint-config-recommended-scss": "^14.1.0",
     "stylelint-order": "^6.0.4",
-    "stylelint-scss": "^6.4.1",
+    "stylelint-scss": "^6.7.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
