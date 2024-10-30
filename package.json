@@ -94,7 +94,7 @@
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@swc/core": "^1.4.17",
-    "@swc/jest": "^0.2.36",
+    "@swc/jest": "^0.2.37",
     "@testing-library/dom": "^9.3.4",
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^14.3.1",
