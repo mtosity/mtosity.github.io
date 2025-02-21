@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "@alxshelepenok/diesel": "^1.0.1365",
-    "@alxshelepenok/diesel-extensions": "^1.0.1240",
+    "@alxshelepenok/diesel-extensions": "^1.0.1241",
     "@lottiefiles/react-lottie-player": "^3.5.4",
     "@vercel/analytics": "^1.2.2",
     "abab": "^2.0.6",
